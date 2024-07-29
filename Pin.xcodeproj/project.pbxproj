@@ -7,18 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E0F8EF52C3D9DBC004F203E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F8EF42C3D9DBC004F203E /* HeaderView.swift */; };
+		0E0F8EF72C3DA128004F203E /* FuncionarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F8EF62C3DA128004F203E /* FuncionarioView.swift */; };
 		0E17A83D2C3582C900DA8A33 /* PinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E17A83C2C3582C900DA8A33 /* PinApp.swift */; };
-		0E17A83F2C3582C900DA8A33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E17A83E2C3582C900DA8A33 /* ContentView.swift */; };
 		0E17A8412C3582CA00DA8A33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E17A8402C3582CA00DA8A33 /* Assets.xcassets */; };
 		0E17A8442C3582CA00DA8A33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E17A8432C3582CA00DA8A33 /* Preview Assets.xcassets */; };
+		0E17A84E2C3586F400DA8A33 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E17A84D2C3586F400DA8A33 /* Model.swift */; };
+		0E17A8502C358BFB00DA8A33 /* AddProblemasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E17A84F2C358BFB00DA8A33 /* AddProblemasView.swift */; };
+		0E17A8552C358F0000DA8A33 /* ProblemasLista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E17A8542C358F0000DA8A33 /* ProblemasLista.swift */; };
+		0E17A8592C35B3EF00DA8A33 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E17A8582C35B3EF00DA8A33 /* ViewModel.swift */; };
+		0E3543982C495CC1009FEA57 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3543972C495CC1009FEA57 /* MainView.swift */; };
+		0E5B48292C403CB5006C3BA2 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B48282C403CB5006C3BA2 /* Manager.swift */; };
+		0E7436DA2C5660F5003E9A83 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7436D92C5660F5003E9A83 /* ButtonView.swift */; };
+		0E86CC992C35BCAD00091C67 /* dados.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E17A8572C35AF5000DA8A33 /* dados.json */; };
+		0E86CC9A2C35BCDB00091C67 /* dados.json in Sources */ = {isa = PBXBuildFile; fileRef = 0E17A8572C35AF5000DA8A33 /* dados.json */; };
+		0E8850982C46D34C00DEDAFA /* CadastroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8850972C46D34C00DEDAFA /* CadastroView.swift */; };
+		0E88509A2C46D6DF00DEDAFA /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8850992C46D6DF00DEDAFA /* Usuario.swift */; };
+		0ED551BC2C4E6A5400DF319C /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED551BB2C4E6A5400DF319C /* ColorExtension.swift */; };
+		0ED571B32C4FBC4500D1C733 /* PedidosFeitosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED571B22C4FBC4500D1C733 /* PedidosFeitosView.swift */; };
+		0ED571B52C4FBD2B00D1C733 /* CardPedidosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED571B42C4FBD2B00D1C733 /* CardPedidosView.swift */; };
+		0EF57A192C4ACE4700FDA891 /* problemas.json in Resources */ = {isa = PBXBuildFile; fileRef = 0EF57A182C4ACBE100FDA891 /* problemas.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E0F8EF42C3D9DBC004F203E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		0E0F8EF62C3DA128004F203E /* FuncionarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncionarioView.swift; sourceTree = "<group>"; };
 		0E17A8392C3582C900DA8A33 /* Pin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E17A83C2C3582C900DA8A33 /* PinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinApp.swift; sourceTree = "<group>"; };
-		0E17A83E2C3582C900DA8A33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0E17A8402C3582CA00DA8A33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E17A8432C3582CA00DA8A33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E17A84D2C3586F400DA8A33 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		0E17A84F2C358BFB00DA8A33 /* AddProblemasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProblemasView.swift; sourceTree = "<group>"; };
+		0E17A8542C358F0000DA8A33 /* ProblemasLista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemasLista.swift; sourceTree = "<group>"; };
+		0E17A8572C35AF5000DA8A33 /* dados.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dados.json; sourceTree = "<group>"; };
+		0E17A8582C35B3EF00DA8A33 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		0E3543972C495CC1009FEA57 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		0E5B48282C403CB5006C3BA2 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		0E7436D92C5660F5003E9A83 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		0E8850972C46D34C00DEDAFA /* CadastroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroView.swift; sourceTree = "<group>"; };
+		0E8850992C46D6DF00DEDAFA /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		0ED551BB2C4E6A5400DF319C /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		0ED571B22C4FBC4500D1C733 /* PedidosFeitosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedidosFeitosView.swift; sourceTree = "<group>"; };
+		0ED571B42C4FBD2B00D1C733 /* CardPedidosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPedidosView.swift; sourceTree = "<group>"; };
+		0EF57A182C4ACBE100FDA891 /* problemas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = problemas.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +82,10 @@
 		0E17A83B2C3582C900DA8A33 /* Pin */ = {
 			isa = PBXGroup;
 			children = (
-				0E17A83C2C3582C900DA8A33 /* PinApp.swift */,
-				0E17A83E2C3582C900DA8A33 /* ContentView.swift */,
-				0E17A8402C3582CA00DA8A33 /* Assets.xcassets */,
+				0E5B48272C403CAA006C3BA2 /* Data */,
+				0EA991452C3FC64C008AAE3B /* Service  */,
+				0EA991402C3FC50A008AAE3B /* Ui */,
+				0E3543972C495CC1009FEA57 /* MainView.swift */,
 				0E17A8422C3582CA00DA8A33 /* Preview Content */,
 			);
 			path = Pin;
@@ -62,9 +94,127 @@
 		0E17A8422C3582CA00DA8A33 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				0E17A83C2C3582C900DA8A33 /* PinApp.swift */,
+				0E17A8582C35B3EF00DA8A33 /* ViewModel.swift */,
+				0E17A8402C3582CA00DA8A33 /* Assets.xcassets */,
 				0E17A8432C3582CA00DA8A33 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0E5B48272C403CAA006C3BA2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0E5B48282C403CB5006C3BA2 /* Manager.swift */,
+				0E8850992C46D6DF00DEDAFA /* Usuario.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0E7436D82C5660E5003E9A83 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				0E7436D92C5660F5003E9A83 /* ButtonView.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		0E7436DB2C5663F3003E9A83 /* Cadastro  */ = {
+			isa = PBXGroup;
+			children = (
+				0E8850972C46D34C00DEDAFA /* CadastroView.swift */,
+			);
+			path = "Cadastro ";
+			sourceTree = "<group>";
+		};
+		0EA991402C3FC50A008AAE3B /* Ui */ = {
+			isa = PBXGroup;
+			children = (
+				0ED551BD2C4E6A7A00DF319C /* Comum */,
+				0E7436DB2C5663F3003E9A83 /* Cadastro  */,
+				0EA991422C3FC5C4008AAE3B /* Header */,
+				0EA991432C3FC5E4008AAE3B /* Funcionario  */,
+				0EA991412C3FC5AF008AAE3B /* ProblemasBike */,
+				0E7436D82C5660E5003E9A83 /* Button */,
+				0EA991442C3FC5F4008AAE3B /* LoadPage */,
+			);
+			path = Ui;
+			sourceTree = "<group>";
+		};
+		0EA991412C3FC5AF008AAE3B /* ProblemasBike */ = {
+			isa = PBXGroup;
+			children = (
+				0E17A84F2C358BFB00DA8A33 /* AddProblemasView.swift */,
+				0E17A8542C358F0000DA8A33 /* ProblemasLista.swift */,
+			);
+			path = ProblemasBike;
+			sourceTree = "<group>";
+		};
+		0EA991422C3FC5C4008AAE3B /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				0E0F8EF42C3D9DBC004F203E /* HeaderView.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		0EA991432C3FC5E4008AAE3B /* Funcionario  */ = {
+			isa = PBXGroup;
+			children = (
+				0E0F8EF62C3DA128004F203E /* FuncionarioView.swift */,
+			);
+			path = "Funcionario ";
+			sourceTree = "<group>";
+		};
+		0EA991442C3FC5F4008AAE3B /* LoadPage */ = {
+			isa = PBXGroup;
+			children = (
+				0ED571B42C4FBD2B00D1C733 /* CardPedidosView.swift */,
+				0ED571B22C4FBC4500D1C733 /* PedidosFeitosView.swift */,
+			);
+			path = LoadPage;
+			sourceTree = "<group>";
+		};
+		0EA991452C3FC64C008AAE3B /* Service  */ = {
+			isa = PBXGroup;
+			children = (
+				0EA991472C3FC672008AAE3B /* JSON */,
+				0EA991462C3FC662008AAE3B /* Model */,
+			);
+			path = "Service ";
+			sourceTree = "<group>";
+		};
+		0EA991462C3FC662008AAE3B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E17A84D2C3586F400DA8A33 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0EA991472C3FC672008AAE3B /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				0E17A8572C35AF5000DA8A33 /* dados.json */,
+				0EF57A182C4ACBE100FDA891 /* problemas.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		0ED551BD2C4E6A7A00DF319C /* Comum */ = {
+			isa = PBXGroup;
+			children = (
+				0ED551BE2C4E6A8800DF319C /* Color */,
+			);
+			path = Comum;
+			sourceTree = "<group>";
+		};
+		0ED551BE2C4E6A8800DF319C /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				0ED551BB2C4E6A5400DF319C /* ColorExtension.swift */,
+			);
+			path = Color;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +275,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E86CC992C35BCAD00091C67 /* dados.json in Resources */,
 				0E17A8442C3582CA00DA8A33 /* Preview Assets.xcassets in Resources */,
 				0E17A8412C3582CA00DA8A33 /* Assets.xcassets in Resources */,
+				0EF57A192C4ACE4700FDA891 /* problemas.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +289,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E17A83F2C3582C900DA8A33 /* ContentView.swift in Sources */,
+				0E3543982C495CC1009FEA57 /* MainView.swift in Sources */,
+				0E86CC9A2C35BCDB00091C67 /* dados.json in Sources */,
+				0E7436DA2C5660F5003E9A83 /* ButtonView.swift in Sources */,
+				0ED571B32C4FBC4500D1C733 /* PedidosFeitosView.swift in Sources */,
+				0E88509A2C46D6DF00DEDAFA /* Usuario.swift in Sources */,
+				0E17A84E2C3586F400DA8A33 /* Model.swift in Sources */,
+				0ED571B52C4FBD2B00D1C733 /* CardPedidosView.swift in Sources */,
+				0E8850982C46D34C00DEDAFA /* CadastroView.swift in Sources */,
+				0ED551BC2C4E6A5400DF319C /* ColorExtension.swift in Sources */,
+				0E0F8EF72C3DA128004F203E /* FuncionarioView.swift in Sources */,
+				0E17A8552C358F0000DA8A33 /* ProblemasLista.swift in Sources */,
+				0E17A8502C358BFB00DA8A33 /* AddProblemasView.swift in Sources */,
+				0E17A8592C35B3EF00DA8A33 /* ViewModel.swift in Sources */,
+				0E5B48292C403CB5006C3BA2 /* Manager.swift in Sources */,
 				0E17A83D2C3582C900DA8A33 /* PinApp.swift in Sources */,
+				0E0F8EF52C3D9DBC004F203E /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
