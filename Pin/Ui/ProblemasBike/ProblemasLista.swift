@@ -48,6 +48,10 @@ struct ProblemasLista: View {
             }
         }
         
+        .navigationTitle("Problemas da Bicicleta")
+        .navigationBarTitleDisplayMode(.inline)
+        
+        
         .searchable(text: $viewModel.search)
         
         .onAppear {

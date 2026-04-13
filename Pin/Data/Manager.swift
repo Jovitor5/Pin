@@ -11,26 +11,27 @@ import Foundation
 class Manager: ObservableObject {
     
     @Published var funcionario: Funcionario?
+    @Published var pedidos: [Pedido] = []
     
     init() {
         load()
     }
-
+    
     static func saveUsuario(user: Usuario) {
         if let encodeData = try? JSONEncoder().encode(user) {
             UserDefaults.standard.set(encodeData, forKey: "usuario")
         }
     }
     
-   static func loadUsuario() -> Usuario? {
+    static func loadUsuario() -> Usuario? {
         if let savedData = UserDefaults.standard.data(forKey: "usuario"),
            let decodeData = try? JSONDecoder().decode(Usuario.self, from: savedData) {
-           
+            
             return decodeData
         }
         
         return nil
-}
+    }
     
     
     func load() {
@@ -52,13 +53,14 @@ class Manager: ObservableObject {
         }
     }
     
-   static func loadPedidos() -> [Pedido] {
+    static func loadPedidos() -> [Pedido] {
         if let savedData = UserDefaults.standard.data(forKey: "pedidos"),
            let decodeData = try? JSONDecoder().decode([Pedido].self, from: savedData) {
-           
+            
             return decodeData
         }
         
         return []
-}
+    }
+  
 }

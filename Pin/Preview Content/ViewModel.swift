@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import FirebaseFirestore
 
 class ViewModel: ObservableObject {
     @Published var search: String = ""
@@ -35,24 +36,48 @@ class ViewModel: ObservableObject {
     }
     
     func fetchProblems() {
-        if let path = Bundle.main.path (forResource: "problemas", ofType: "json") {
-            
-            do {
-                let jsonData = try Data (contentsOf: URL(fileURLWithPath: path))
+        
+        let db = Firestore.firestore()
+        let problemsRef = db.collection("problems")
+        
+        problemsRef.order(by: "title").getDocuments { snapshot, error in
+            if let error = error {
+                print("ERROR")
                 
-                let problema = try JSONDecoder().decode([Problema].self, from: jsonData)
-                
-                self.problemas = problema
-                
-            } catch {
-                print (error.localizedDescription)
+                return
             }
             
-        } else {
-            print("Arquivo Json não encontrado.")
+            guard let documents = snapshot?.documents else {
+                print("Nenhum ´problema´ encontrado.")
+                
+                return
+            }
+            
+            self.problemas = documents.map{ document in
+                Problema.init(title: document[
+                    "title"
+                ] as! String)
+            }
         }
+        
+                if let path = Bundle.main.path (forResource: "problemas", ofType: "json") {
+        
+                    do {
+                        let jsonData = try Data (contentsOf: URL(fileURLWithPath: path))
+        
+                        let problema = try JSONDecoder().decode([Problema].self, from: jsonData)
+        
+                        self.problemas = problema
+        
+                    } catch {
+                        print (error.localizedDescription)
+                    }
+        
+                } else {
+                    print("Arquivo Json não encontrado.")
+                }
     }
-                            // ab
+    
     var filterProblems: [Problema] {
         if search.isEmpty {
             return problemas.sorted(by: { problem1, problem2 in
